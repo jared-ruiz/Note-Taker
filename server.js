@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
+app.use(express.static(__dirname + '/Develop/public'));
 const PORT = process.env.PORT || 3001;
 const fs = require('fs');
-const { type } = require('os');
 const path = require('path');
 
 //require the json information 
@@ -70,6 +70,16 @@ app.get('/api/notes/:id', (req, res) => {
     else {
         res.send(404);
     }
+})
+
+//html home page
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './Develop/public/index.html'));
+})
+
+//notes html page
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, './Develop/public/notes.html'));
 })
 
 //post new notes
