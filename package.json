@@ -1,0 +1,23 @@
+{
+  "name": "challenge-11",
+  "version": "1.0.0",
+  "description": "- For the eleventh challenge of my bootcamp, I am tasked with creating a working application that takes in user submitting notes and saves it. I will be using express.js and the working knowledge of back end server development that I have experienced up to this point.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jared-ruiz/Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jared-ruiz/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/jared-ruiz/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
