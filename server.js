@@ -12,7 +12,7 @@ const { notes } = require('./data/db');
 
 //link for testing purposes: https://young-anchorage-10762.herokuapp.com/
 
-//tales om query and filters through notes
+//takes query and filters through notes
 function filterByQuery(query, notesArray) {
     let filteredResults = notesArray;
 
