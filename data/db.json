@@ -1,29 +1,9 @@
 {
   "notes": [
     {
-      "id": "0",
-      "title": "Title1",
-      "text": "Text1"
-    },
-    {
-      "id": "1",
-      "title": "Title2",
-      "text": "Text2"
-    },
-    {
-      "id": "2",
-      "title": "Title3",
-      "text": "Text3"
-    },
-    {
-      "title": "Title4",
-      "text": "Text4",
-      "id": "3"
-    },
-    {
-      "title": "Title4",
-      "text": "Text4",
-      "id": "4"
+      "title": "Test",
+      "text": "This is a test message",
+      "id": "57a175a3-868b-4149-b924-e1ade926a624"
     }
   ]
 }

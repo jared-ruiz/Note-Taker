@@ -6,6 +6,7 @@ app.use(express.static(__dirname + '/Develop/public'));
 const PORT = process.env.PORT || 3001;
 const fs = require('fs');
 const path = require('path');
+const { v4: uuidv4 } = require('uuid');
 
 //require the json information 
 const { notes } = require('./data/db');
@@ -85,7 +86,7 @@ app.get('/notes', (req, res) => {
 //post new notes
 app.post('/api/notes', (req, res) => {
     //assigns the id that is being posted to one above the length. Allows no duplicate id's so long as nothing is deleted
-    req.body.id = notes.length.toString();
+    req.body.id = uuidv4();
 
     //if data in req.body is incorrect, send a 400 error
     if (!validateNote(req.body)) {
