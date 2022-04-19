@@ -83,6 +83,11 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './Develop/public/notes.html'));
 })
 
+//wildcard request
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './Develop/public/notes.html'));
+})
+
 //post new notes
 app.post('/api/notes', (req, res) => {
     //assigns the id that is being posted to one above the length. Allows no duplicate id's so long as nothing is deleted
