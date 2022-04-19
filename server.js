@@ -90,7 +90,7 @@ app.get('*', (req, res) => {
 
 //post new notes
 app.post('/api/notes', (req, res) => {
-    //assigns the id that is being posted to one above the length. Allows no duplicate id's so long as nothing is deleted
+    //adds random id to every note created
     req.body.id = uuidv4();
 
     //if data in req.body is incorrect, send a 400 error
