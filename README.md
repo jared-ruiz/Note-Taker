@@ -39,15 +39,14 @@ GIVEN a note-taking application
 - [Usage](#usage)
 - [License Information](#license-information)
 - [Questions](#questions)
-- [Working Example of Project](#working-example-of-project)
 
 ## Installation
 ---
-
+- For installation, you will have to download the repository and make sure you have Node and Express.js installed and run through your personal localhost url.
 
 ## Usage
 ---
-
+- The usage for this application is to make post requests to the server and allow for dynamic adding of notes whenever the user adds the required information and presses "save."
 
 ## License Information
 ---
@@ -56,11 +55,11 @@ GIVEN a note-taking application
 
 ## Questions
 ---
-If you have any further questions, contact me here: [GitHub](https://github.com/jared-ruiz)
-
-## Working Example of Project
----
+- If you have any further questions, contact me here: [GitHub](https://github.com/jared-ruiz)
 
 
 ## Weekly Reflection
 ---
+This week was incredibly interesting but confusing at the same time. Handling all the new jargon and understanding exactly what express.js was and communicating between server and client side was a lot to take in. I think unlike last week, I have a better grasp of the small scope presented to us currently, but I am still researching and learning as most as I can nonetheless. Node has simply opened a door of confusion and intrigue and I'm excited to continue learning more about the back-end! Lastly, this week marks the halfway point of my journey! Here's to another week!
+
+-J
